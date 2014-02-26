@@ -1,4 +1,4 @@
-package com.captechventures.java.spring3.model;
+	package com.captechventures.java.spring3.model;
 
 import java.util.Date;
 
@@ -15,15 +15,15 @@ public class ToDo {
 
 	private String description;
 
-	@Future
+	//@Future
 	@NotNull
-	private Date due;
+	private String due;
 
-	public Date getDue() {
+	public String getDue() {
 		return due;
 	}
 
-	public void setDue(Date due) {
+	public void setDue(String due) {
 		this.due = due;
 	}
 

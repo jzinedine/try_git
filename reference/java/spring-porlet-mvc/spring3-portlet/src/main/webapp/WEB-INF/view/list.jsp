@@ -9,9 +9,7 @@
 
 <portlet:actionURL var="save" />
 
-<portlet:resourceURL var="viewAsText" />
-
-<form:form modelAttribute="toDo" action="${save}">
+<form:form modelAttribute="toDo" action="${save}" method="POST">
 	<fieldset>
 		<legend>Add a TODO</legend>
 		<div>
@@ -34,5 +32,3 @@
 		</div>
 	</fieldset>
 </form:form>
-
-<a href="${viewAsText}" onclick="return !window.open(this.href);">View your TODOs as plain text.</a>

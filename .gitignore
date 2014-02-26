@@ -38,3 +38,4 @@ Thumbs.db
 
 # Maven support files #
 target/
+.settings
